@@ -1,10 +1,5 @@
 <?php declare(strict_types = 1);
 
-/*
-*   This library is installed by supplier_inventory_scan.ocmod
-*
-*/
-
 class CronSyntaxHelper {
 
   public static function isItTimeToRunThisCron($cron_expression, $time = '') : bool {
